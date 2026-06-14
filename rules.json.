@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "/ajax/mercury/change_read_status.php",
+      "resourceTypes": ["xmlhttprequest"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "graphql",
+      "resourceTypes": ["xmlhttprequest"],
+      "regexFilter": ".*(delivery_receipt|read_receipt|mark_read|threads_seen).*"
+    }
+  }
+]
