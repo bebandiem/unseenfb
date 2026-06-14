@@ -13,9 +13,8 @@
     "priority": 1,
     "action": { "type": "block" },
     "condition": {
-      "urlFilter": "graphql",
-      "resourceTypes": ["xmlhttprequest"],
-      "regexFilter": ".*(delivery_receipt|read_receipt|mark_read|threads_seen).*"
+      "regexFilter": ".*(graphql|delivery_receipt|read_receipt|mark_read|threads_seen).*",
+      "resourceTypes": ["xmlhttprequest"]
     }
   }
 ]
