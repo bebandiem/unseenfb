@@ -13,7 +13,7 @@
     "priority": 1,
     "action": { "type": "block" },
     "condition": {
-      "regexFilter": ".*(graphql|delivery_receipt|read_receipt|mark_read|threads_seen).*",
+      "regexFilter": ".*(delivery_receipt|read_receipt|mark_read|threads_seen).*",
       "resourceTypes": ["xmlhttprequest"]
     }
   }
